@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: auto;
+    margin-top: 20px;
+    height: 50px;
+    background: linear-gradient( to right, rgb(29, 32, 44), rgb(29,32, 41));
+    justify-content: space-between;
+    display: flex;
+}
+nav, ul, li{
+    gap: 40px;
+    display: flex;
+    width: auto;
+    margin: 5px;
+    margin-right: 10px;
+}
+#logo{
+    height: 35px;
+    margin: 5px;
+    width: 100px;
+    margin-left: 130px;
+}
+a{
+    color: rgb(80, 79, 79);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+a:hover{
+    color: white;
+    transition: 0.7s;
+}
+main, #topo{
+    width: 100%;
+}
+#secao-1{
+    text-align: center;
+    justify-content: center;
+}
+#secao-1 > h1{
+    padding-top: 50px;
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#secao-1 > p{
+    font-size: 16px;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#secao-2{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#secao-2, h2, section p{
+    color: rgb(56, 56, 56);
+}
+#artigo-1 > img{
+    height: 600px;
+    margin-top: -450px;
+    width: 100%;
+}
+#artigo-1 > h1, p{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color: rgb(253, 252, 252);
+}
+#article, h1{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+#article, p{
+    line-height: 25px;
+}
+address{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: rgb(29, 32, 44);
+}
+iframe{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background: rgb(29, 32, 44);
+    color: rgb(121, 121, 121);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+    header,ul ,li{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        font-size: 12px;
+    }
+    #logo{
+        height: 35px;
+        margin: 5px;
+        width: 100px;
+        margin-right: 80px;
+    }
+    #artigo-1 > img{
+        height: 700px;
+        padding-top: 30px;
+        margin-top: -700px;
+        width: 100%;
+    } 
+}  
